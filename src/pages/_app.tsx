@@ -7,6 +7,8 @@ import { ThemeProvider } from 'styled-components';
 import GlobalStyles from 'styles/global';
 import theme from 'styles/theme';
 
+import { Analytics } from '@vercel/analytics/react';
+
 import SEO from '../../next-seo.config';
 
 function App({ Component, pageProps }: AppProps) {
@@ -25,6 +27,7 @@ function App({ Component, pageProps }: AppProps) {
       </Head>
       <DefaultSeo {...SEO} />
       <GlobalStyles />
+      <Analytics />
       <Component {...pageProps} />
     </ThemeProvider>
   );
