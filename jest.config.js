@@ -15,6 +15,7 @@ const customJestConfig = {
     '!src/pages/**/*.tsx',
     '!src/styles/**/*.ts',
     '!src/utils/tests/*.ts(x)?',
+    '!src/utils/useIsomorphicLayoutEffect.ts',
   ],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   modulePaths: ['<rootDir>/src/', '<rootDir>/.jest'],

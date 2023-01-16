@@ -9,16 +9,15 @@ module.exports = {
     '@storybook/addon-a11y',
     'storybook-addon-pseudo-states',
     'storybook-addon-designs',
-    'storybook-addon-next',
     'storybook-dark-mode',
   ],
   staticDirs: ['../public'],
-  core: {
-    builder: 'webpack5',
-  },
   webpackFinal: config => {
     config.resolve.modules.push(`${process.cwd()}/src`);
-
     return config;
+  },
+  framework: {
+    name: '@storybook/nextjs',
+    options: {},
   },
 };

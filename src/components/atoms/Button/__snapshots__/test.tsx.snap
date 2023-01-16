@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports['<Button /> should render the button primary 1'] = `
+.c0 {
+  position: relative;
+  border-radius: 3px;
+  text-transform: uppercase;
+  -webkit-transform: skewX(-10deg);
+  -ms-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #EDF1F7;
+  background: linear-gradient(267.72deg,#f02a2f 0.88%,#ea1d22 100%);
+  padding: 1.2rem 3.2rem;
+}
+
+.c0:hover {
+  box-shadow: 0px 14px 85px rgba(240,42,47,0.06), 0px 5.11023px 31.0264px rgba(240,42,47,0.0413989), 0px 2.48092px 15.0627px rgba(240,42,47,0.0333774), 0px 1.21619px 7.38404px rgba(240,42,47,0.0266226), 0px 0.480885px 2.91966px rgba(240,42,47,0.0186011);
+  -webkit-transform: scale(1.05) skewX(-10deg);
+  -ms-transform: scale(1.05) skewX(-10deg);
+  transform: scale(1.05) skewX(-10deg);
+}
+
+.c0::before,
+.c0::after {
+  content: '';
+  position: absolute;
+  display: block;
+  border-radius: 3px;
+  opacity: 0;
+  width: 20%;
+  height: 70%;
+  z-index: -1;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+.c0::before {
+  bottom: -2px;
+  right: -2px;
+  border-bottom: 3px solid #edf1f7;
+  border-right: 3px solid #edf1f7;
+}
+
+.c0::after {
+  top: -2px;
+  left: -2px;
+  border-top: 3px solid #edf1f7;
+  border-left: 3px solid #edf1f7;
+}
+
+.c0:hover::after,
+.c0:hover::before {
+  opacity: 1;
+  width: 20%;
+}
+
+<a
+  class="c0"
+  href="/"
+  type="primary"
+>
+  Button
+</a>
+`;
+
+exports['<Button /> should render the button secondary 1'] = `
+.c0 {
+  position: relative;
+  border-radius: 3px;
+  text-transform: uppercase;
+  -webkit-transform: skewX(-10deg);
+  -ms-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #EDF1F7;
+  border: 2px solid #ea1d22;
+  padding: 1rem 3.2rem;
+}
+
+.c0:hover {
+  box-shadow: 0px 14px 85px rgba(240,42,47,0.06), 0px 5.11023px 31.0264px rgba(240,42,47,0.0413989), 0px 2.48092px 15.0627px rgba(240,42,47,0.0333774), 0px 1.21619px 7.38404px rgba(240,42,47,0.0266226), 0px 0.480885px 2.91966px rgba(240,42,47,0.0186011);
+  -webkit-transform: scale(1.05) skewX(-10deg);
+  -ms-transform: scale(1.05) skewX(-10deg);
+  transform: scale(1.05) skewX(-10deg);
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(267.72deg,#f02a2f 0.88%,#ea1d22 100%);
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+.c0:hover::after {
+  width: 100%;
+}
+
+<a
+  class="c0"
+  href="/"
+  type="secondary"
+>
+  Button
+</a>
+`;
