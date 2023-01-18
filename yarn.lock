@@ -2559,14 +2559,6 @@
     regenerator-runtime "^0.13.7"
     util-deprecate "^1.0.2"
 
-"@storybook/core-client@7.0.0-beta.28":
-  version "7.0.0-beta.28"
-  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-beta.28.tgz#b83d9952853967f321a9453f0173752335391f9a"
-  integrity sha512-5cufbH9pkURkwg9cEZcwuXpqJZeozhu8IfhbJSFLusPjgQUSxH2VWClr/fDPUsrAawQIHey0HLAJ9vrBXDYNhA==
-  dependencies:
-    "@storybook/client-logger" "7.0.0-beta.28"
-    "@storybook/preview-api" "7.0.0-beta.28"
-
 "@storybook/core-client@7.0.0-beta.29":
   version "7.0.0-beta.29"
   resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-beta.29.tgz#c6c882a69c61ff712221aebc84b212ef76a662d1"
@@ -2986,32 +2978,6 @@
     react-docgen-typescript "^2.1.1"
     tslib "^2.0.0"
 
-"@storybook/react@7.0.0-beta.28":
-  version "7.0.0-beta.28"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.0-beta.28.tgz#0f1c616ed8acfb2435d1d5206fffef0a5fa65cb6"
-  integrity sha512-t/g67q4/n67iK6XohLjRzUo2ea0VcEjkIHnQWV3QXjWHV78TsK7yhZjISUDjkOWVVeQ30zjMw0ZO9VJtKfQiMA==
-  dependencies:
-    "@storybook/client-logger" "7.0.0-beta.28"
-    "@storybook/core-client" "7.0.0-beta.28"
-    "@storybook/docs-tools" "7.0.0-beta.28"
-    "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.0.0-beta.28"
-    "@storybook/types" "7.0.0-beta.28"
-    "@types/escodegen" "^0.0.6"
-    "@types/estree" "^0.0.51"
-    "@types/node" "^16.0.0"
-    acorn "^7.4.1"
-    acorn-jsx "^5.3.1"
-    acorn-walk "^7.2.0"
-    escodegen "^2.0.0"
-    html-tags "^3.1.0"
-    lodash "^4.17.21"
-    prop-types "^15.7.2"
-    react-element-to-jsx-string "^15.0.0"
-    ts-dedent "^2.0.0"
-    type-fest "^2.19.0"
-    util-deprecate "^1.0.2"
-
 "@storybook/react@7.0.0-beta.29":
   version "7.0.0-beta.29"
   resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.0-beta.29.tgz#cf37d6cea6b120c462b770574d5c0fd74828bff9"
@@ -3118,7 +3084,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.0.0-beta.29":
+"@storybook/theming@7.0.0-beta.29", "@storybook/theming@^7.0.0-beta.28":
   version "7.0.0-beta.29"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-beta.29.tgz#d3ee295c2e11eb1075533a04d4ffdaefe73a8d1e"
   integrity sha512-TF9HxhKR5UA0MrPh+NNtvTiIttYbWgCKYJze89jxFXtNdA1U7/QZm4NDXfI7Eqz2XLRlNue71c5KexBR8R26DQ==
